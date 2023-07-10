@@ -1,0 +1,37 @@
+.nav-container{
+    height: 20%;
+
+    .rectangle{
+        position: absolute;
+        top: 3rem;
+        left: 8rem;
+        color: red;
+        width: 45%;
+        z-index: 80;
+    }
+    .mainnav{
+    position: absolute;
+    right: 0;
+        
+    }
+    .navlink{
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1.25rem;
+        color: #979797;
+        span{
+            color: #FFFFFF;
+            margin-right: 0.3rem;
+        }
+
+        &:hover{
+            color: #FFFFFF;
+            border-bottom: 2px solid #979797;
+            transition: 0.3s ease-in-out;
+        }
+    }
+    .active-link {
+        border-bottom: 2px solid #FFFFFF; // Customize the border style here
+    }
+}
+
+
